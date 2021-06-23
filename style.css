@@ -1,0 +1,356 @@
+*{
+    box-sizing: border-box;
+}
+
+header{
+    /* width: 80%; */
+    margin: 25px 15px;
+    text-align: center;
+}
+#nav{
+    display: flex;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    background-color:white;
+    margin-top: 0px;
+    padding: 10px;
+    border-bottom: 2px thin black;
+    margin-left: auto;
+    margin-right: auto;
+    
+  
+}
+
+.logo{
+    width: 25%;
+    font-weight: bolder;
+}
+.logo img{
+    width:250px;
+    margin-left: 120px;
+}
+#nav-list ul li{
+    display: flex;
+    list-style: none;
+   
+    
+}
+#nav-list ul{
+    display: flex;
+    margin-left: 500px;
+ 
+}
+#nav ul li a{
+    text-decoration: none;
+    padding-right: 10px;
+    color: grey;
+    font-weight: bolder;
+    font-size: 15px;
+    
+}
+#nav ul li a:hover{color: rgb(118, 187, 118);;}
+#nav-list .about-link{
+    color: rgb(118, 187, 118);
+}
+
+#health-exp img{
+    margin-top: 100px;
+}
+#health-exp div{
+    text-align: center;
+    margin-top: 20px;
+   
+}
+.health-exp{
+   font-size: 40px;
+   color: rgb(118, 187, 118);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dropbtn {
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    /* min-width: 160px; */
+    z-index: 2;
+  }
+  
+  .dropdown-content a {
+    color: grey;
+    padding: 2px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+      color: rgb(118, 187, 118);
+      font-size: 20px;
+      background-color: white;
+      margin-top: 20px;
+      padding: 10px;
+    
+    }
+  
+  .dropdown:hover .dropdown-content {
+      display: block;
+      background-color: rgb(236, 236, 236);
+      line-height: 20px;
+      padding:30px 10px;
+      width: 200px;
+      height: 250px;
+
+}
+  
+  .dropdown:hover .dropbtn {color: rgb(118, 187, 118);}
+
+
+#health-text{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 130px;
+    padding-top: 20px;
+}
+
+.health-text{
+    line-height: 2em;
+    font-size: 18px;
+    font-family: inherit;
+    font-weight: lighter;
+    color: grey;
+}
+
+#services{
+    margin: 25px 130px;
+    display: flex;
+    margin-top:100px;
+    justify-content: space-between;
+
+}
+
+#patient{
+    color: white;
+    background-color: rgb(25, 226, 166);
+    /* margin-left: 20px; */
+}
+.services{
+    width: 32%;
+    padding: 10px;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px;
+    padding-left: 40px;
+    height: 320px;
+   
+}
+
+.services h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+#doctors{
+    color: white;
+    background-color: rgb(43, 43, 126);
+}
+
+#clinic{
+    color: white;
+    background-color: rgb(4, 4, 20);
+}
+
+
+.custom-select{
+    margin-top: 120px;
+    margin-bottom: 30px;
+    border: none;
+}
+#doctor > .custom-select > option {
+    border: none;
+    background-color: ;
+}
+.two-twenty > option{
+    margin-bottom: 130px;
+}
+.two-twenty{
+    margin-top: 70px;
+}
+
+.more-twenty{
+    margin-top: 30px;
+}
+
+
+
+#sponsors{
+    margin: 15px 150px;
+    display: flex;
+}
+#sponsors div p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.5em;
+    color: rgb(62, 122, 72);
+    font-size: 25px;
+    font-weight: lighter;
+}
+#sponsor-logo{
+    margin-left: 70px;
+}
+
+#sponsor-logo img{
+    color: grey;
+    margin-left: 50px;
+    justify-content: center;
+    margin-top: 90px;
+    align-items: flex-end;
+}
+#sponsor-logo img:hover{
+    color: grey !important;
+}
+
+#advert-logo{
+    background-color: rgb(166, 214, 200);
+    display: flex;
+}
+
+#advert-text img{
+    bottom: -150px;
+    left: -400px;
+    width: 300px;
+}
+
+#advert{
+    margin-left: 150px;
+    padding-top: 25px;
+    width: 50%;
+    margin-bottom: 25px;
+
+}
+#advert h2{
+    color: rgb(62, 122, 72);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+}
+#advert-back img{
+    width: 400px;
+    bottom: -200px;
+}
+
+#advert-points{
+    width: 45%;
+    margin-left: 50px;
+  
+}
+
+.leader{
+    text-align: center;
+    background-color: white;
+    padding: 13px;
+    margin-top: 25px;
+    height: 250px;
+    padding-top: 20px;
+}
+.leader h3{
+    color: rgb(62, 122, 72);;
+}
+.appointments{
+    text-align: center;
+    background-color: white;
+    /* margin-bottom: 25px; */
+    padding: 15px;
+    width: 250px;
+    height: 250px;
+}
+
+.appointments h3{
+    color: rgb(62, 122, 72);
+    font-size: 25px;
+    
+}
+
+.first-two{
+    display: flex;
+    justify-content: space-between
+}
+
+.last-two{
+    display: flex;
+    justify-content: space-between;
+}
+
+.unique-patients{
+    text-align: center;
+    padding: 15px;
+    width: 250px;
+    background-color: white;
+    height: 250px;
+    margin-top: 45px;
+}
+.unique-patients h3{
+    color: rgb(62, 122, 72);
+    font-size: 25px;
+}
+.active-doctors{
+    text-align: center;
+    padding: 15px;
+    width: 250px;
+    background-color: white;
+    height: 250px;
+    margin-bottom: 30px;
+    margin-top: auto;
+}
+.active-doctors h3{
+    color: rgb(62, 122, 72);
+    font-size: 25px;
+}
+#talent{
+    text-align: center;
+}
+
+#talent h3{
+    font-size: 25px;
+    font-family:monospace ;
+    color: rgb(62, 122, 72);
+    padding-top: 50px;
+}
+#talent p{
+    font-family: monospace;
+    font-size: 15px;
+}
+
+#countries{
+    /* margin: 20px 130px 20px 150px; */
+}
+#first-set{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 120px;
+}
+
+#first-set img {
+    height: 300px;
+}
+.warsaw h2{
+     font-family: monospace;
+     display: inline;
+}
+.warsaw img{
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+.warsaw span{
+    background-color: blue;
+    padding: 7px 10px;
+    color: white;
+    margin-left: 120px;
+    border-radius: 10px;
+}
