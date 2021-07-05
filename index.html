@@ -9,48 +9,70 @@
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+  
     <header id="nav">
-        <div class="logo">
-            <img src="logo-default-group-en.svg" alt="">
-        </div>
-        <div id="nav-list">
-            <ul>
-               <li><a href="#" class="about-link">About Us</a></li> 
-               <li><a href="#">Careers</a></li> 
-               <div class="dropdown">
-                <button class="dropbtn"><li><a href="#">Departments</a></li></button>
-                <div class="dropdown-content">
-                    <a href="#">Meeting & PR</a>
-                    <a href="#">Customer Success & Sales</a>
-                    <a href="#">IT, Product, Data</a>
-                    <a href="#">Finance & Administration</a>
-                    <a href="#">HR & more</a>
-                  </div> 
-               </div>
-              
-            </ul>
-        </div>
+        <div id="header-container">
+       <h1>
+           <a href="">
+            <img class="logo-docplanner" src="logo-default-group-en.svg?v=1" alt="Docplanner Group">
+           </a>
+       </h1>
+       <nav class=" main-nav">
+          <ul class="main-menu">
+           <li>
+            <a href="#" class="is-current">About us</a>
+           </li>
+         <a href="#">Career</a>
+           </li>
+           <li class="dropdown">
+            <a>Departments
+                 <br>
+            </a>
+            <div class="dropdown-content">
+                <ul>
+                    <li>
+                        <a href="/department?dep=marketing">Marketing &amp; PR</a>
+                    </li>
+                    <li>
+                        <a href="/department?dep=customer">Customer Success &amp; Sales</a>
+                    </li>
+                    <li>
+                        <a href="/department?dep=it">IT, Product, Data</a>
+                    </li>
+                    <li>
+                        <a href="/department?dep=finance">Finance &amp; Administration</a>
+                    </li>
+                    <li>
+                        <a href="/department?dep=hr">HR &amp; more</a>
+                    </li>
+                </ul>
+
+            </div>
+           </li>
+          </ul>
+       </nav>
     </header>
 
+    
     <section id="health-exp">
         <div>
             <img src="sygnet.png" alt="">
         </div>
 
-        <div class="health-exp">
+        <h1 class="health-exp">
             Making the healthcare experience more human
-        </div>
+        </h1>
     </section>
 
     <article id="health-text">
-        <div class="health-text">
+        <div class="health-text-patients">
             We want patients to find the perfect doctor and book an <br> 
             appointment in the most easy way. The patient journey should be <br>
              enjoyable, and that's why we are always next to them: to help them <br>
               find the best possible care. Anytime, anywhere.
         </div>
 
-        <div class="health-text">
+        <div class="health-text-doctors">
             We also help doctors to better manage their practice and build their <br>
              online reputation. With our integrated end-to-end solution, doctors <br>
               are able not only to improve their online presence, but also to <br>
@@ -71,7 +93,7 @@
 
             <div class="custom-select" style="width:200px;">
                 <select>
-                  <a href=""><option value="0">Choose Country:</option></a>
+                  <a href=""><option value="0">Choose Country</option></a>
                   <option value="1">Argentina</option>
                   <option value="2">Brazil</option>
                   <option value="3">Chile</option>
@@ -97,7 +119,7 @@
             
             <div class="custom-select" style="width:200px;">
                 <select>
-                  <a href="" class="select-button"><option value="0">Choose Country:</option></a>
+                  <a href="" class="select-button"><option value="0">Choose Country</option></a>
                   <option value="1">Argentina</option>
                   <option value="2">Brazil</option>
                   <option value="3">Chile</option>
@@ -140,7 +162,7 @@
 
               <div class="more-twenty" style="width:200px;">
                 <select>
-                  <a href="" class="select-button"><option value="0">more than 20 specialists</option></a>
+                  <a href="" class="select-button"><option value="0">More than 20 specialists</option></a>
                  
                   <option value="2">Brazil</option>
                   <option value="6">Italy</option>
@@ -158,10 +180,10 @@
 
     <section id="sponsors"> 
         <div>
-            <p>
+            <h1>
                 We are a global <br> company <br>
                  with local culture
-            </p>
+            </h1>
         </div>
         <div id="sponsor-logo">
             <a href=""><img src="logo-gipo.svg" alt=""></a> 
@@ -171,14 +193,14 @@
     </section>
 
 <section id="advert-logo">
-    <div>
+    <div class="big-healthcare">
         <div id="advert">
             <h2>The world's biggest <br>
                 healthcare platform</h2>
     
                 <p>
                     We work from 7 offices all over the world, 
-                    bringing Docplanner Group to life in a dozen countries.
+                    bringing Docplanner <br> Group  to life in a dozen countries.
                 </p>
     
         </div>
@@ -192,7 +214,7 @@
     <div id="advert-points">
         <div class="first-two">
             <div class="leader">
-                <img src="visits (1).png" alt="">
+                <img src="flag.png" alt="">
 
                 <h3>
                     Leader in 12 <br>
@@ -260,36 +282,94 @@
 
 
 <section id="countries">
-    <div id="first-set">
+   <div id="first-set">
+    <div class="warsaw">
+        <img src="rome.png" alt="">
+        <h2>Rome <button>SEE OPENINGS</button> </h2>
+     
+       
+
+    </div>
+   
+    <div class="warsaw">
+        <img src="bologna.png" alt="">
+        <h2>Bologna <button>SEE OPENINGS</button> </h2>
+       
+
+    </div>
+  
+    <div class="warsaw">
+        <img src="curitiba.png" alt="">
+        <h2>Curitiba  <button>SEE OPENINGS</button> </h2>
+     
+
+    </div>
+
+</div>
+   </div>
+
+    <div id="second-set">
         <div class="warsaw">
-            <img src="warsaw.png" alt="">
-            <h2>Warsaw</h2>
-           <span>
-               SEE OPENINGS
-           </span>
+            <img src="rome.png" alt="">
+            <h2>Rome <button>SEE OPENINGS</button> </h2>
+         
+           
 
         </div>
        
         <div class="warsaw">
-            <img src="barcelona.png" alt="">
-            <h2>Barcelona</h2>
-            <span>
-                SEE OPENINGS
-            </span>
+            <img src="bologna.png" alt="">
+            <h2>Bologna <button>SEE OPENINGS</button> </h2>
+           
  
         </div>
       
         <div class="warsaw">
-            <img src="istanbul.png" alt="">
-            <h2>Istanbul</h2>
-            <span>
-                SEE OPENINGS
-            </span>
+            <img src="curitiba.png" alt="">
+            <h2>Curitiba  <button>SEE OPENINGS</button> </h2>
+         
  
         </div>
-      
-    </div>
 
+    </div>
+    <div id="mexico">
+        <div class="warsaw">
+            <img src="mexico-city.png" alt="">
+            <h2>Curitiba  <button>SEE OPENINGS</button> </h2>
+         
+        </div>
+    </div>
 </section>
+
+    <section id="last-part">
+        <h2>
+            Sounds interesting? Join us now!
+            
+        </h2>
+       
+        <p>
+            <a href="">
+                SEE ALL CURRENT OPENINGS
+            </a>
+           
+        </p>
+    </section>
+
+<hr>
+    <footer>
+        <p>We are leaders in 11 countries: <span>Poland, Turkey, 
+            Spain, Italy, Czech Republic, Mexico, Colombia,
+             Brazil, Argentina, Peru and Chile</span> </p>
+
+             <p>
+                This site uses cookies to deliver services
+                 in accordance with this Privacy Policy. 
+                 You can specify the conditions for storing
+                  or accessing cookies on your browser.
+             </p>
+             <p>
+                www.docplanner.com &copy;
+             </p>
+    </footer>
 </body>
 </html>
